@@ -8,7 +8,7 @@
 clear; clc; close all;
 
 % 加载.mat文件并提取数据
-data = load('zernikeResult.mat'); % 确保.mat文件名与此处匹配
+data = load('test_mat.mat'); % 确保.mat文件名与此处匹配
 zernikeData = data.zernikeResult; % 提取数据到变量zernikeData
 
 % 消去数据中的NaN值
